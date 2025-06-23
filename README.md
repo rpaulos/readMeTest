@@ -22,10 +22,10 @@
 - [Intelligent Search](#intelligent-search)
 - [Agentic AI Agents](#agentic-ai-agents)
 - [Chatbot](#chatbot)
-- [Automated Email Inquire](#automated-email-inquire)
+- <!--- [Automated Email Inquire](#automated-email-inquire) --->
 - [How to Access JuanderGO Online](#how-to-access-juandergo-online)
 - [How to Run JuanderGO Locally](#how-to-run-juandergo-locally)
-- [Repository Structure](#repository-structure)
+- <!---[Repository Structure](#repository-structure) --->
 - [Team Details](#team-details)
 
 ---
@@ -265,41 +265,42 @@ JuanderGo integrates a collaborative crew of **9** agentic agents, each designed
 <p align="center">
   <img src="https://i.imgur.com/Z73jajy.png" alt="Weather Agent Result" width="70%" style="border-radius: 12px;" />
   <br>
-  <em>Description placeholder</em>
+  <em></em>
 </p>
 
 <h4> Facts and Trivia Agent</h4>
 <p align="center">
   <img src="https://i.imgur.com/s7gLeqL.png" alt="Facts and Trivia Result" width="70%" style="border-radius: 12px;" />
   <br>
-  <em>Description placeholder</em>
+  <em></em>
 </p>
 
 <h4> Events Agent</h4>
 <p align="center">
   <img src="https://i.imgur.com/aOjchSC.png" alt="Event Agent Result" width="70%" style="border-radius: 12px;" />
   <br>
-  <em>Description placeholder</em>
+  <em></em>
 </p>
 
 <h4> Accommodation and Restaurant Agent</h4>
 <p align="center">
   <img src="https://i.imgur.com/FBGE7cE.png" alt="Accommodation and Restaurant Agent Result" width="70%" style="border-radius: 12px;" />
   <br>
-  <em>Description placeholder</em>
+  <em></em>
 </p>
 
 <h4> Itinerary Agent</h4>
 <p align="center">
   <img src="https://i.imgur.com/44eKbiO.png" alt="Itinerary Agent Result" width="70%" style="border-radius: 12px;" />
   <br>
-  <em>Description placeholder</em>
+  <em></em>
 </p>
 
-
+<!---
 <h4> Agents Behavior </h4>
 
 <h4> Architecture </h4>
+--->
 
 <h4> User Guide </h4>
 
@@ -358,9 +359,11 @@ JuanderGo integrates a collaborative crew of **9** agentic agents, each designed
   <em>Step 3: Receiving a contextual response from the chatbot.</em>
 </p>
 
+<!---
 <h3 id="automated-email-inquire">📧 Automated Email Inquiry</h3>
 
 <h4> User Guide </h4>
+--->
 
 ---
 
@@ -441,7 +444,9 @@ python -m pipx ensurepath</code></pre>
 
 ---
 
+<!---
 <h2 id="repository-structure"> 🏗️ Repository Structure </h2>
+--->
 
 ---
 
