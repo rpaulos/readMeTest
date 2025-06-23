@@ -13,18 +13,6 @@
 </p>
 
 ---
-<!---
-## 📚 Table of Contents
-- [JuanderGo: Multi Agentic AI Powered Travel Planner](#juandergo-multi-agentic-ai-powered-travel-planner)
-- [Project Description](#project-description)
-- [Purpose](#purpose)
-- [Tech Stack](#tech-stack)
-- [Features](#features)
-- [Data](#data)
-- [Usage Guide](#usage-guide)
-- [Repository Structure](#repository-structure)
-- [Team Members](#team-members)
---->
 
 ## 📚 Table of Contents
 - [Project Overview](#project-overview)
@@ -41,12 +29,6 @@
 - [Team Details](#team-details)
 
 ---
-<!---
-<h2 id="project-overview">🧠 Project Overview</h2>
-<!-- JuanderGo Overview 
-<img src = "https://i.imgur.com/hPnZsaE.png"/>
-JuanderGO is an AI-powered travel itinerary generator designed to simplify and personalize trip planning across the Philippines. It addresses the challenge many travelers face: spending hours researching destinations, activities, and logistics. By integrating intelligent search, agentic AI agents, and tourism data sourced from the Department of Tourism’s (DoT) accredited establishments and official tourism website, JuanderGO creates tailored itineraries in minutes. It's built for tourists, both local and foreign, who want meaningful and efficient travel experiences without the hassle. The project matters because it promotes local tourism, uplifts regional communities, and leverages AI to make exploration of the Philippines more accessible and enjoyable.
---->
 
 <h2 id="project-overview">🧠 Project Overview</h2>
 
@@ -82,256 +64,51 @@ JuanderGO is an AI-powered travel itinerary generator designed to simplify and p
   This section highlights the core technologies and tools used to build <strong>JuanderGO</strong>. It covers everything from the agentic AI framework that powers intelligent itinerary generation, to the frontend interface, data processing workflows, vectorization methods, external API integrations, and deployment infrastructure. Each layer of the stack plays a vital role in ensuring a seamless, responsive, and personalized travel planning experience for users.
 </p>
 
-<!-- Techstack Summary Description Table -->
-
-<!--
-
-<h3> 🎨 Frontend </h3>
-
-| # | Tool            | Description                                                       |
-| - | --------------- | ----------------------------------------------------------------- |
-| 1 | Streamlit       | Framework for building interactive Python-based web apps.         |
-| 2 | Figma           | Used for designing UI/UX wireframes and visual layouts.           |
-| 3 | Bootstrap Icons | Adds consistent visual icons to improve the app's visual clarity. |
-
-<h3> 🧠 Agentic AI Framework </h3>
-
-| # | Technology | Description                                                                                           |
-| - | ---------- | ----------------------------------------------------------------------------------------------------- |
-| 1 | CrewAI     | Orchestrates multiple autonomous agents that collaborate to generate travel recommendations.          |
-| 2 | Langchain  | Connects AI models with tools and data sources to enable contextual understanding and task execution. |
-
-<h3> 🕸️ Web Scraping </h3>
-
-| # | Tool                    | Description                                                                |
-| - | ----------------------- | -------------------------------------------------------------------------- |
-| 1 | Undetected ChromeDriver | Allows headless and stealth browsing to access dynamic content undetected. |
-| 2 | BeautifulSoup           | Parses HTML pages to extract structured information from static websites.  |
-| 3 | Selenium                | Automates browser interaction for dynamic or JavaScript-heavy pages.       |
-
-<h3> 🧹 Data Preprocessing </h3>
-
-| # | Tool   | Description                                                                 |
-| - | ------ | --------------------------------------------------------------------------- |
-| 1 | Regex  | Extracts structured patterns like location names and dates from raw text.   |
-| 2 | Pandas | Handles data manipulation, cleaning, and transformation tasks.              |
-| 3 | NLTK   | Performs natural language preprocessing such as tokenization and filtering. |
-
-<h3> 🧲 Vectorization </h3>
-
-| # | Technology             | Description                                                                         |
-| - | ---------------------- | ----------------------------------------------------------------------------------- |
-| 1 | Sklearn (TFIDF)        | Converts textual data into weighted keyword vectors for keyword relevance.          |
-| 2 | OpenAI Embedding Model | Generates semantic vectors to enable meaning-based (not just keyword-based) search. |
-| 3 | QDrant Cloud           | A vector database that stores embeddings and supports fast similarity search.       |
-
-<h3> 🌐 Application Programming Interface </h3>
-
-| # | API                      | Description                                                                  |
-| - | ------------------------ | ---------------------------------------------------------------------------- |
-| 1 | Google Maps API          | Enables location search and mapping services within the itinerary planner.   |
-| 2 | Google Flights (SerpAPI) | Fetches flight pricing and route suggestions based on destination and dates. |
-| 3 | Google Search API        | Supports retrieval of up-to-date location-specific details and links.        |
-| 4 | Google Weather API       | Provides real-time and historical weather forecasts for informed planning.   |
-
-<h3> 🐍 Programming Language </h3>
-
-| # | Language | Description                                                               |
-| - | -------- | ------------------------------------------------------------------------- |
-| 1 | Python   | Primary language for backend logic, AI orchestration, scraping, and APIs. |
-
-<h3> 🛠️ Tools </h3>
-
-| # | Tool             | Description                                                |
-| - | ---------------- | ---------------------------------------------------------- |
-| 1 | VSCode           | Code editor for development.                               |
-| 2 | GitHub           | Version control and project hosting platform.              |
-| 3 | Jupyter Notebook | Used for experimenting with data and prototyping AI logic. |
-| 4 | Canva            | Visual asset creation for presentations and UI mockups.    |
-| 5 | OBS Studio       | Recording tool used for screen captures and demo videos.   |
-
--->
-
-<h3>🎨 Frontend</h3>
 <div align="center" style="width: 100%;">
   <table style="width: 100%;">
     <thead>
       <tr>
         <th>#</th>
-        <th>Tool</th>
+        <th>Tool / Technology</th>
+        <th>Category</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
-      <tr><td>1</td><td>Streamlit</td><td>Framework for building interactive Python-based web apps.</td></tr>
-      <tr><td>2</td><td>Figma</td><td>Used for designing UI/UX wireframes and visual layouts.</td></tr>
-      <tr><td>3</td><td>Bootstrap Icons</td><td>Adds consistent visual icons to improve the app's visual clarity.</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<h3>🧠 Agentic AI Framework</h3>
-<div align="center" style="width: 100%;">
-  <table style="width: 100%;">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Technology</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>1</td><td>CrewAI</td><td>Orchestrates multiple autonomous agents that collaborate to generate travel recommendations.</td></tr>
-      <tr><td>2</td><td>Langchain</td><td>Connects AI models with tools and data sources to enable contextual understanding and task execution.</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<h3>🕸️ Web Scraping</h3>
-<div align="center" style="width: 100%;">
-  <table style="width: 100%;">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Tool</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>1</td><td>Undetected ChromeDriver</td><td>Allows headless and stealth browsing to access dynamic content undetected.</td></tr>
-      <tr><td>2</td><td>BeautifulSoup</td><td>Parses HTML pages to extract structured information from static websites.</td></tr>
-      <tr><td>3</td><td>Selenium</td><td>Automates browser interaction for dynamic or JavaScript-heavy pages.</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<h3>🧹 Data Preprocessing</h3>
-<div align="center" style="width: 100%;">
-  <table style="width: 100%;">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Tool</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>1</td><td>Regex</td><td>Extracts structured patterns like location names and dates from raw text.</td></tr>
-      <tr><td>2</td><td>Pandas</td><td>Handles data manipulation, cleaning, and transformation tasks.</td></tr>
-      <tr><td>3</td><td>NLTK</td><td>Performs natural language preprocessing such as tokenization and filtering.</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<h3>🧲 Vectorization</h3>
-<div align="center" style="width: 100%;">
-  <table style="width: 100%;">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Technology</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>1</td><td>Sklearn (TFIDF)</td><td>Converts textual data into weighted keyword vectors for keyword relevance.</td></tr>
-      <tr><td>2</td><td>OpenAI Embedding Model</td><td>Generates semantic vectors to enable meaning-based (not just keyword-based) search.</td></tr>
-      <tr><td>3</td><td>QDrant Cloud</td><td>A vector database that stores embeddings and supports fast similarity search.</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<h3>🌐 Application Programming Interface</h3>
-<div align="center" style="width: 100%;">
-  <table style="width: 100%;">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>API</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>1</td><td>Google Maps API</td><td>Enables location search and mapping services within the itinerary planner.</td></tr>
-      <tr><td>2</td><td>Google Flights (SerpAPI)</td><td>Fetches flight pricing and route suggestions based on destination and dates.</td></tr>
-      <tr><td>3</td><td>Google Search API</td><td>Supports retrieval of up-to-date location-specific details and links.</td></tr>
-      <tr><td>4</td><td>Google Weather API</td><td>Provides real-time and historical weather forecasts for informed planning.</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<h3>🐍 Programming Language</h3>
-<div align="center" style="width: 100%;">
-  <table style="width: 100%;">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Language</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>1</td><td>Python</td><td>Primary language for backend logic, AI orchestration, scraping, and APIs.</td></tr>
-    </tbody>
-  </table>
-</div>
-
-<h3>🚀 Deployment</h3>
-<div align="center" style="width: 100%;">
-  <table style="width: 100%;">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Technology</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>AWS EC2 Windows Server</td>
-        <td>Used to deploy and host JuanderGO online. The Windows-based EC2 instance runs the Streamlit web app and all supporting backend services.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<h3> 🛠️ Tools </h3>
-<div align="center" style="width: 100%;">
-  <table style="width: 100%;">
-    <thead>
-      <tr>
-        <th style="text-align: left;">#</th>
-        <th style="text-align: left;">Tool</th>
-        <th style="text-align: left;">Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>VSCode</td>
-        <td>Code editor for development.</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>GitHub</td>
-        <td>Version control and project hosting platform.</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Jupyter Notebook</td>
-        <td>Used for experimenting with data and prototyping AI logic.</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>Canva</td>
-        <td>Visual asset creation for presentations and UI mockups.</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>OBS Studio</td>
-        <td>Recording tool used for screen captures and demo videos.</td>
-      </tr>
+      <!-- Frontend -->
+      <tr><td>1</td><td>Streamlit</td><td>Frontend</td><td>Framework for building interactive Python-based web apps.</td></tr>
+      <tr><td>2</td><td>Figma</td><td>Frontend</td><td>Used for designing UI/UX wireframes and visual layouts.</td></tr>
+      <tr><td>3</td><td>Bootstrap Icons</td><td>Frontend</td><td>Adds consistent visual icons to improve the app's visual clarity.</td></tr>
+    <!-- Agentic AI Framework -->
+      <tr><td>4</td><td>CrewAI</td><td>Agentic AI Framework</td><td>Orchestrates multiple autonomous agents that collaborate to generate travel recommendations.</td></tr>
+      <tr><td>5</td><td>Langchain</td><td>Agentic AI Framework</td><td>Connects AI models with tools and data sources to enable contextual understanding and task execution.</td></tr>
+      <!-- Web Scraping -->
+      <tr><td>6</td><td>Undetected ChromeDriver</td><td>Web Scraping</td><td>Allows headless and stealth browsing to access dynamic content undetected.</td></tr>
+      <tr><td>7</td><td>BeautifulSoup</td><td>Web Scraping</td><td>Parses HTML pages to extract structured information from static websites.</td></tr>
+      <tr><td>8</td><td>Selenium</td><td>Web Scraping</td><td>Automates browser interaction for dynamic or JavaScript-heavy pages.</td></tr>
+      <!-- Data Preprocessing -->
+      <tr><td>9</td><td>Regex</td><td>Data Preprocessing</td><td>Extracts structured patterns like location names and dates from raw text.</td></tr>
+      <tr><td>10</td><td>Pandas</td><td>Data Preprocessing</td><td>Handles data manipulation, cleaning, and transformation tasks.</td></tr>
+      <tr><td>11</td><td>NLTK</td><td>Data Preprocessing</td><td>Performs natural language preprocessing such as tokenization and filtering.</td></tr>
+      <!-- Vectorization -->
+      <tr><td>12</td><td>Sklearn (TFIDF)</td><td>Vectorization</td><td>Converts textual data into weighted keyword vectors for keyword relevance.</td></tr>
+      <tr><td>13</td><td>OpenAI Embedding Model</td><td>Vectorization</td><td>Generates semantic vectors to enable meaning-based (not just keyword-based) search.</td></tr>
+      <tr><td>14</td><td>QDrant Cloud</td><td>Vectorization</td><td>A vector database that stores embeddings and supports fast similarity search.</td></tr>
+      <!-- APIs -->
+      <tr><td>15</td><td>Google Maps API</td><td>API</td><td>Enables location search and mapping services within the itinerary planner.</td></tr>
+      <tr><td>16</td><td>Google Flights (SerpAPI)</td><td>API</td><td>Fetches flight pricing and route suggestions based on destination and dates.</td></tr>
+      <tr><td>17</td><td>Google Search API</td><td>API</td><td>Supports retrieval of up-to-date location-specific details and links.</td></tr>
+      <tr><td>18</td><td>Google Weather API</td><td>API</td><td>Provides real-time and historical weather forecasts for informed planning.</td></tr>
+      <!-- Programming Language -->
+      <tr><td>19</td><td>Python</td><td>Programming Language</td><td>Primary language for backend logic, AI orchestration, scraping, and APIs.</td></tr>
+      <!-- Deployment -->
+      <tr><td>20</td><td>AWS EC2 Windows Server</td><td>Deployment</td><td>Used to deploy and host JuanderGO online. The Windows-based EC2 instance runs the Streamlit web app and all supporting backend services.</td></tr>
+      <!-- Tools -->
+      <tr><td>21</td><td>VSCode</td><td>Tools</td><td>Code editor for development.</td></tr>
+      <tr><td>22</td><td>GitHub</td><td>Tools</td><td>Version control and project hosting platform.</td></tr>
+      <tr><td>23</td><td>Jupyter Notebook</td><td>Tools</td><td>Used for experimenting with data and prototyping AI logic.</td></tr>
+      <tr><td>24</td><td>Canva</td><td>Tools</td><td>Visual asset creation for presentations and UI mockups.</td></tr>
+      <tr><td>25</td><td>OBS Studio</td><td>Tools</td><td>Recording tool used for screen captures and demo videos.</td></tr>
     </tbody>
   </table>
 </div>
@@ -500,11 +277,60 @@ JuanderGo integrates a collaborative crew of **9** agentic agents, each designed
 
 <h4> User Guide </h4>
 
-<h4> Results </h4>
+<ol style="font-size: 16px; line-height: 1.6;">
+  <li><strong>Select Agents</strong> – Navigate to the Agents tab to access the agent interface.</li>
+  <li><strong>Input Required Fields</strong> – Fill in all necessary information such as destination, travel dates, interests, and preferences.</li>
+  <li><strong>Select Agent to Run</strong> – Choose which specific agent(s) to activate, depending on what information you want generated.</li>
+  <li><strong>Submit Request</strong> – Click the submit button to start the agent's execution process.</li>
+  <li><strong>Wait for Agent Execution</strong> – The agent will process the data and run background logic to generate tailored outputs.</li>
+  <li><strong>View and Download Results</strong> – Once complete, view the generated response and optionally download your itinerary or agent report.</li>
+</ol>
+
+<p align="center">
+  <img src="https://i.imgur.com/m7rLpja.png" alt="Steps 1 & 2 – Select agents and input details" width="80%" style="border-radius: 12px; margin-bottom: 10px;">
+  <br>
+  <em>Steps 1–2: Selecting agents and entering required fields.</em>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/5eij9ks.png" alt="Steps 3 & 4 – Select and run agent" width="80%" style="border-radius: 12px; margin-bottom: 10px;">
+  <br>
+  <em>Steps 3–4: Choosing an agent and submitting the request.</em>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/PFG90rZ.png" alt="Step 5 – Agent running" width="80%" style="border-radius: 12px; margin-bottom: 10px;">
+  <br>
+  <em>Step 5: Agent execution in progress.</em>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/shbwwE4.png" alt="Step 6 – Results displayed" width="80%" style="border-radius: 12px;">
+  <br>
+  <em>Step 6: Viewing and downloading the result.</em>
+</p>
 
 <h3 id="chatbot">💬 Chatbot</h3>
 
 <h4> User Guide </h4>
+
+<ol style="font-size: 16px; line-height: 1.6;">
+  <li><strong>Select Chatbot</strong> – Navigate to the chatbot section in the app interface.</li>
+  <li><strong>Input Query</strong> – Type your question, travel concern, or request into the chat input field.</li>
+  <li><strong>Wait and See Results</strong> – The chatbot will process your query and return an intelligent response based on its trained data and connected tools.</li>
+</ol>
+
+<p align="center">
+  <img src="https://i.imgur.com/N0z110X.png" alt="Steps 1 & 2 – Select chatbot and input query" width="80%" style="border-radius: 12px; margin-bottom: 10px;">
+  <br>
+  <em>Steps 1–2: Accessing the chatbot and entering your question.</em>
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/Lkv5qVK.png" alt="Step 3 – Chatbot response" width="80%" style="border-radius: 12px;">
+  <br>
+  <em>Step 3: Receiving a contextual response from the chatbot.</em>
+</p>
 
 <h3 id="automated-email-inquire">📧 Automated Email Inquiry</h3>
 
@@ -532,3 +358,4 @@ JuanderGo integrates a collaborative crew of **9** agentic agents, each designed
 <div align="center">
   <img src="https://i.imgur.com/cDW81Uz.png" />
 </div>
+
