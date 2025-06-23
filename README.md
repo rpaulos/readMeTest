@@ -386,7 +386,41 @@ You can access JuanderGO by pressing the button below or by manually entering th
 
   <li><strong>Open the cloned repo in VS Code</strong><br>
     Navigate into the folder:
-    <pre><code>cd team-GioData-2025</code></pre>
+    <pre><code>cd repo-name</code></pre>
+  </li>
+
+  <li><strong>Install Python</strong><br>
+    Make sure to check <code>Add Python to PATH</code> during installation.
+  </li>
+
+  <li><strong>Install PipX</strong><br>
+    Run the following commands:
+    <pre><code>python -m pip install --user pipx
+python -m pipx ensurepath</code></pre>
+  </li>
+
+  <li><strong>Install Poetry</strong><br>
+    Use PipX to install Poetry:
+    <pre><code>pipx install poetry</code></pre>
+  </li>
+
+  <li><strong>Navigate to the directory where <code>pyproject.toml</code> is located</strong>:
+    <pre><code>cd juandergo_personalized_itinerary</code></pre>
+  </li>
+
+  <li><strong>Install all Poetry dependencies</strong><br>
+    This command sets up the virtual environment and installs dependencies:
+    <pre><code>poetry install</code></pre>
+  </li>
+
+  <li><strong>Navigate to the app source directory</strong><br>
+    Where <code>app.py</code> is located:
+    <pre><code>cd src/juandergo_personalized_itinerary</code></pre>
+  </li>
+
+  <li><strong>Run the Streamlit Application</strong><br>
+    Launch the web app:
+    <pre><code>poetry run streamlit run app.py</code></pre>
   </li>
 </ol>
 
