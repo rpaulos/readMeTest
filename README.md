@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/61e22ed0-b46a-4788-b512-a5ff91845ca7)<div align="center">
+<div align="center">
   <img src="https://i.imgur.com/cDW81Uz.png" />
 </div>
 <h2 align="center" id="juandergo-multi-agentic-ai-powered-travel-planner">JuanderGo: Multi Agentic AI Powered Travel Planner</h2>
