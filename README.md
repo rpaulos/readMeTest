@@ -113,7 +113,6 @@
   </table>
 </div>
 
-
 ---
 
 <h2 id="data-acquisition-and-storage">📦 Data Acquisition and Storage </h2>
@@ -364,7 +363,32 @@ You can access JuanderGO by pressing the button below or by manually entering th
 
 ---
 
-<h2 id="how-to-run-juandergo-locally"> 🖥️ How to Run JuanderGO Locally </h2>
+<h2 id="how-to-run-juandergo-locally">🖥️ How to Run JuanderGO Locally</h2>
+
+<ol style="font-size: 16px; line-height: 1.6;">
+  <li><strong>Launch Visual Studio Code</strong></li>
+
+  <li><strong>Open a terminal</strong><br>
+    <em>Press</em> <code>Ctrl + `</code> <em>(backtick)</em> or go to <code>View &gt; Terminal</code>
+  </li>
+
+  <li><strong>Navigate to the desired folder</strong><br>
+    Use the <code>cd</code> command:
+    <pre><code>cd path/to/your/folder</code></pre>
+  </li>
+
+  <li><strong>Clone the GitHub Repository</strong><br>
+    Using HTTPS:
+    <pre><code>git clone https://github.com/GenAIPHBuilders-org/team-GioData-2025.git</code></pre>
+    Or using SSH:
+    <pre><code>git clone git@github.com:GenAIPHBuilders-org/team-GioData-2025.git</code></pre>
+  </li>
+
+  <li><strong>Open the cloned repo in VS Code</strong><br>
+    Navigate into the folder:
+    <pre><code>cd team-GioData-2025</code></pre>
+  </li>
+</ol>
 
 ---
 
