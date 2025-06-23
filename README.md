@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://juandergo.aratilismk.com/">
-    <img src="https://img.shields.io/badge/-🌏%20JuanderGo-orange?style=for-the-badge" alt="JuanderGo" />
+    <img src="https://img.shields.io/badge/-🌏%20JuanderGo Deployed App-orange?style=for-the-badge" alt="JuanderGo" />
   </a>
   <a href="https://youtube.com/your-channel-link">
     <img src="https://img.shields.io/badge/Demo Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo Video" />
