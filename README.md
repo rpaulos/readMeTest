@@ -22,11 +22,11 @@
 - [Intelligent Search](#intelligent-search)
 - [Agentic AI Agents](#agentic-ai-agents)
 - [Chatbot](#chatbot)
-- <!--- [Automated Email Inquire](#automated-email-inquire) --->
 - [How to Access JuanderGO Online](#how-to-access-juandergo-online)
 - [How to Run JuanderGO Locally](#how-to-run-juandergo-locally)
-- <!---[Repository Structure](#repository-structure) --->
 - [Team Details](#team-details)
+<!--- [Automated Email Inquire](#automated-email-inquire) --->
+<!---[Repository Structure](#repository-structure) --->
 
 ---
 
