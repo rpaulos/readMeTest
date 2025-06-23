@@ -152,6 +152,8 @@
 <!-- Data Acquisition and Storage Architecture -->
 <h3> 🧩 Data Acquisition and Storage Architecture </h3> 
 
+<img src="https://i.imgur.com/nr8LVmw.png"/>
+<img src="https://i.imgur.com/kdxVDPK.png"/>
 
 <!-- Qdrant Cloud -->
 <h3> ☁️ Qdrant Cloud </h3> 
@@ -186,11 +188,20 @@
 
 <h4> Architecture </h4>
 
+<img src="https://i.imgur.com/lwi7jm2.png"/>
+
 <h5> Keyword Seach </h5>
+
+<img src="https://i.imgur.com/j60ps0q.png"/>
+<img src="https://i.imgur.com/5fFJtIj.png"/>
 
 <h5> Semantic Seach </h5>
 
+<img src="https://i.imgur.com/a0Mrzj7.png"/>
+
 <h5> Hybrid Seach </h5>
+
+<img src="https://i.imgur.com/xSouQtE.png"/>
 
 <h4> User Guide </h4>
 
