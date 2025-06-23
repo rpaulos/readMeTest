@@ -7,8 +7,8 @@
   <a href="https://juandergo.aratilismk.com/">
     <img src="https://img.shields.io/badge/-🌏%20JuanderGo Deployed App-orange?style=for-the-badge" alt="JuanderGo" />
   </a>
-  <a href="https://youtube.com/your-channel-link">
-    <img src="https://img.shields.io/badge/Demo Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo Video" />
+  <a href="https://www.canva.com/design/DAGrKXZZjW8/zDj54wt_vRTjQIb-dyHWag/edit?utm_content=DAGrKXZZjW8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+    <img src="https://img.shields.io/badge/-📊%20Final%20Pitch%20Deck-blueviolet?style=for-the-badge" alt="Final Pitch Deck" />
   </a>
 </p>
 
