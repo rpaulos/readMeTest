@@ -243,31 +243,37 @@ JuanderGo integrates a collaborative crew of **9** agentic agents, each designed
 <h4> Flight Agent</h4>
 <p align="center">
   <img src="https://i.imgur.com/9JmlxA5.png" alt="Flight Agent Result" width="70%" style="border-radius: 12px;" />
+  <em>Description placeholder</em>
 </p>
 
 <h4> Weather Agent</h4>
 <p align="center">
   <img src="https://i.imgur.com/Z73jajy.png" alt="Weather Agent Result" width="70%" style="border-radius: 12px;" />
+  <em>Description placeholder</em>
 </p>
 
 <h4> Facts and Trivia Agent</h4>
 <p align="center">
   <img src="https://i.imgur.com/s7gLeqL.png" alt="Facts and Trivia Result" width="70%" style="border-radius: 12px;" />
+  <em>Description placeholder</em>
 </p>
 
 <h4> Events Agent</h4>
 <p align="center">
   <img src="https://i.imgur.com/aOjchSC.png" alt="Event Agent Result" width="70%" style="border-radius: 12px;" />
+  <em>Description placeholder</em>
 </p>
 
 <h4> Accommodation and Restaurant Agent</h4>
 <p align="center">
   <img src="https://i.imgur.com/FBGE7cE.png" alt="Accommodation and Restaurant Agent Result" width="70%" style="border-radius: 12px;" />
+  <em>Description placeholder</em>
 </p>
 
 <h4> Itinerary Agent</h4>
 <p align="center">
   <img src="https://i.imgur.com/44eKbiO.png" alt="Itinerary Agent Result" width="70%" style="border-radius: 12px;" />
+  <em>Description placeholder</em>
 </p>
 
 
@@ -341,7 +347,7 @@ JuanderGo integrates a collaborative crew of **9** agentic agents, each designed
 <h2 id="how-to-access-juandergo-online"> 📶 How to Access JuanderGO Online</h2>
 
 <p align="justify" style="font-size: 16px; line-height: 1.6;">
-You can access JuanderGO by pressing the button below or by manually entering the link into your browser.
+You can access JuanderGO by pressing the button below or by manually entering the link (https://juandergo.aratilismk.com/) into your browser.
 </p>
 
 <p align="center">
