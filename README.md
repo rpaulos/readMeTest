@@ -242,7 +242,7 @@ JuanderGo integrates a collaborative crew of **9** agentic agents, each designed
 
 <h4> Flight Agent</h4>
 <p align="center">
-  <img src="" alt="Flight Agent Result" width="70%" style="border-radius: 12px;" />
+  <img src="https://i.imgur.com/9JmlxA5.png" alt="Flight Agent Result" width="70%" style="border-radius: 12px;" />
 </p>
 
 <h4> Weather Agent</h4>
