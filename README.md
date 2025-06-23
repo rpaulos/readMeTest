@@ -380,7 +380,6 @@ You can access JuanderGO by pressing the button below or by manually entering th
     <td align="center" width="50%">
       <img src="https://i.imgur.com/X9hmBNp.png" alt="Giorgio Armani Magno" style="border-radius: 50%; width: 120px; height: 120px;"><br><br>
       <strong>Giorgio Armani Magno</strong><br>
-      <em>Data Scientist</em><br><br>
       <p align="center">
         <a href="https://github.com/ggiorgioarmanim">
           <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -394,7 +393,6 @@ You can access JuanderGO by pressing the button below or by manually entering th
     <td align="center" width="50%">
       <img src="https://i.imgur.com/xHKeiUq.png" alt="Rae Paulos" style="border-radius: 50%; width: 120px; height: 120px;"><br><br>
       <strong>Rae Paulos</strong><br>
-      <em>Computer Science Student</em><br><br>
       <p align="center">
         <a href="https://github.com/rpaulos">
           <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
