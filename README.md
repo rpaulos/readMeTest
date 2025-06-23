@@ -1,4 +1,4 @@
-<div align="center">
+![image](https://github.com/user-attachments/assets/61e22ed0-b46a-4788-b512-a5ff91845ca7)<div align="center">
   <img src="https://i.imgur.com/cDW81Uz.png" />
 </div>
 <h2 align="center" id="juandergo-multi-agentic-ai-powered-travel-planner">JuanderGo: Multi Agentic AI Powered Travel Planner</h2>
@@ -190,18 +190,22 @@
 
 <img src="https://i.imgur.com/lwi7jm2.png"/>
 
-<h5> Keyword Seach </h5>
+<h5> Keyword Search </h5>
+This method matches exact words or phrases in your query against the dataset. It is fast and ideal for simple lookups but may miss contextually relevant results if the keywords don't align exactly with the stored data.
 
 <img src="https://i.imgur.com/j60ps0q.png"/>
 <img src="https://i.imgur.com/5fFJtIj.png"/>
 
-<h5> Semantic Seach </h5>
+<h5> Semantic Search </h5>
+Instead of relying on exact matches, semantic search uses vector embeddings to understand the meaning behind your query. It finds results based on conceptual similarity, even if the exact words aren’t present, making it more accurate for nuanced searches.
 
 <img src="https://i.imgur.com/a0Mrzj7.png"/>
 
-<h5> Hybrid Seach </h5>
+<h5> Hybrid Search </h5>
+Combines the precision of keyword search with the contextual understanding of semantic search. It ensures relevant matches by weighing both exact keyword hits and meaning-based similarities—offering a balanced and robust search experience.
 
 <img src="https://i.imgur.com/xSouQtE.png"/>
+<img src="https://i.imgur.com/ctWCcck.png"/>
 
 <h4> User Guide </h4>
 
